@@ -54,7 +54,7 @@ push-dot () {
 
 	y=$(($y + 1))
 
-	echo "Le traceroute $y/$t de $1 sur le port $2 est terminé, vous pouvez consulter la carte ce trouvant dans ce dossier."
+	echo "Le traceroute $y/$t de $1 sur le port $2 est terminé, vous pouvez consulter la carte se trouvant dans ce dossier (elle évolue au fur et à mesure des traceroutes)."
 }
 
 final-push () {
